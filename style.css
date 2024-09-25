@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root 
+{
+    --space-cadet: #2b2d42ff;
+    --cool-gray: #8d99aeff;
+    --antiflash-white: #edf2f4ff;
+    --red-pantone: #ef233cff;
+    --fire-engine-red: #d90429ff;
+    --font-texto: "Montserrat", sans-serif;
+    --font-titulo: "Bebas Neue", sans-serif;
+}
+
+body 
+{
+    background-color: var(--space-cadet);
+    color: var(var(--space-cadet));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: var(--font-titulo);
+}
+
+h1
+{
+    font-family: var(--fonteTitulo);
+    color: var(--fire-engine-red);
+    font-size: 3em;
+}
+
+h3
+{
+    font-family: var(--fonteTexto);
+    color: var(--antiflash-white);
+    font-size: 2em;
+}
+
+.mensagem
+{
+    font-size: 1.5em;
+    color: var(--antiflash-white);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--fire-engine-red);
+    border-radius: 25px;
+    font: var(--font-texto);
+}
+
+.box
+{
+    border: 8px double var(--cinzaEscuro);
+    border-radius: 25px;
+    display: inline-block;
+    font-family: var(--fonteTitulo);
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2
+{
+    font-size: 4em;
+    color: var(--branco);
+    font-family: var(--fonteTitulo);
+    text-shadow: 3px 3px 20px var(--cinzaEscuro);
+}
+
+footer{
+    color: var(--antiflash-white);
+}
